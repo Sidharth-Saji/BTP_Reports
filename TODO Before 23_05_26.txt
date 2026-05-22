@@ -1,0 +1,10 @@
+Patent Draft
+- Dynamic Moire Displacement Sensor (IDF Complete First, then convert to Form 2)
+
+Paper Draft
+- Dynamic Moiré Displacement Sensor for Long-Range High-Resolution Displacement Measurement (4 Pages)
+- Hybrid Photoluminescence Measurement System (4 Pages)
+
+
+
+Todo / To Know: what is the theoretical resolution of Sampling Moire Method Compared to normal phase shift method
