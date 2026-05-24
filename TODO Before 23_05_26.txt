@@ -1,10 +1,32 @@
 Patent Draft
-- Dynamic Moire Displacement Sensor (IDF Complete First, then convert to Form 2)
+- Dynamic Moiré' Displacement Sensor (Form 2)
 
 Paper Draft
-- Dynamic Moiré Displacement Sensor for Long-Range High-Resolution Displacement Measurement (4 Pages)
+- Dynamic Moiré Displacement Sensor for Long-Range High-Resolution Displacement Measurement (6 Pages)
+
+
+Paper Draft (By June Ending)
 - Hybrid Photoluminescence Measurement System (4 Pages)
 
 
+Todo / To Know: what is the theoretical resolution of Sampling Moiré Method Compared to normal phase shift method
 
-Todo / To Know: what is the theoretical resolution of Sampling Moire Method Compared to normal phase shift method
+
+Figures for Dynamic Moiré Sensor
+(Hardware Architecture)
+- System Diagram 
+- System with DCX (Isometric View) - DONE
+- System with Rod Lens (Isometric View) - DONE
+- System with DCX (Side View) - Done
+- System with Rod Lens Array (Side View) - Done 
+- Detailed Exploded View of the Sensor Head with PCB and all - 
+
+(Signal Processing and Digital Moiré' Formation)
+- Sample Phase Shift with Lower Pitch - 
+- Sample Phase Shift with higher Pitch - 
+- Thinning out mechanism and Digital Moiré Formation - 
+- Master Flow Chart of Operation - 
+
+(Testing & Performance Validation)
+- Experimental Displacement Transfer Characteristic 
+A calibration graph plotting "Actual Displacement Given by Reference Stage ($\mu\text{m}$)" on the X-axis against "Measured Displacement from Dynamic Moiré Sensor um" on the Y-axis
