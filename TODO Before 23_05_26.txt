@@ -13,7 +13,7 @@ Todo / To Know: what is the theoretical resolution of Sampling Moiré Method Com
 
 
 Figures for Dynamic Moiré Sensor
-(Hardware Architecture)
+(Hardware Architecture)	
 - System Diagram 
 - System with DCX (Isometric View) - DONE
 - System with Rod Lens (Isometric View) - DONE
@@ -29,4 +29,4 @@ Figures for Dynamic Moiré Sensor
 
 (Testing & Performance Validation)
 - Experimental Displacement Transfer Characteristic 
-A calibration graph plotting "Actual Displacement Given by Reference Stage ($\mu\text{m}$)" on the X-axis against "Measured Displacement from Dynamic Moiré Sensor um" on the Y-axis
+A calibration graph plotting "Actual Displacement Given by Reference Stage (um)" on the X-axis against "Measured Displacement from Dynamic Moiré Sensor um" on the Y-axis

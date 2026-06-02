@@ -1,0 +1,63 @@
+Figures (8-Pages)
+1. Sampling Moiré Method - System, Plots and Flow Chart
+2. Sampling Moiré Method - Processing and Displacement Calculation, Pitch Limiting the Range
+
+3. Dynamic Sampling Moiré Sensor  - Exploded System View different angle
+4. Dynamic Sampling Moiré Sensor  - Flow Chart and Graphs 
+
+5. Optical Design - 1 with DCX Lens -  Done
+6. Optical Design - 2 with Rod Lens Array - Done
+7. Experimental Validation
+
+
+1. Dynamic Sampling Moire' Method 
+2. Optical Design Embodiment - DCX
+3. Optical Design Embodiment - Rod Lens
+4. 
+5. Sampling Moire Theory Waveforms
+6. Dynamic Sampling Moire Theory Waveforms
+7. 
+8. Experimental Validation
+
+
+
+
+Background of the Invention -  3 pages Explain Prior Art, Sampling Moire Theory
+
+Objects of the Invention - 1 Page (7 points)
+Summary of the Invention - 1 Page (10 points)
+
+Brief Description of the Accompanying Drawing - 1 1/2 page (
+Detailed Description - 1 1/2 page (
+
+
+Exemplary Embodiments of the invention - 3 pages
+Advantages - 1 Page
+We Claim - 2 Pages
+
+
+Total: 14
+
+
+
+DM3 - Electronic Display Module
+DM2 - Lens Assembly 
+DM1 - Linear CMOS Image Sensor with DAQ
+
+
+
+
+
+
+FIG.1A, FIG1B - Structure of Proposed DYnamic Sampling MOire Displacement Sensor  
+FIG.2A, FIG2B - Emobiement Optical Design with Convex Lens   
+FIG.3A, FIG3B - Emobiement Optical Design with Rod Lens Array    
+FIG 4A - Sampling Moire method
+FIG 4B Limitation of Sampling Moire with range as P and maximum displacement as +-p/2
+FIG 5 Sampling Moiré MEthod Plots
+FIG 6 Flow chart of Dynamic Sampling Moire Method proposed	
+FIG 7 Dynamic Sampling Moiré MEthod Figures
+FIG 8 Experimental Validation	
+
+
+

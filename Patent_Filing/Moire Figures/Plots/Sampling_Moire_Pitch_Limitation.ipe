@@ -1,0 +1,395 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70218" creator="Ipe 7.2.29">
+<info created="D:20260531102546" modified="D:20260531102615"/>
+<ipestyle>
+<symbol name="bullet">
+<path matrix="0.04 0 0 0.04 0 0" fill="black">
+18 0 0 18 0 0 e
+</path>
+</symbol>
+<layout paper="422.696 278.432" origin="0 0" frame="422.696 278.432"/>
+</ipestyle>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" fill="1" fillrule="wind">
+56.6531 38.8719 m
+406.394 38.8719 l
+406.394 271.232 l
+56.6531 271.232 l
+56.6531 38.8719 l
+h
+</path>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+72.5504 38.8719 m
+72.5504 271.232 l
+</path>
+<path fill="0" fillrule="wind">
+72.5504 38.8719 m
+72.5504 35.3719 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+72.5504 38.8719 m
+72.5504 35.3719 l
+</path>
+<text matrix="1 0 0 1 73.5621 24.2781" pos="0 0" stroke="0" type="label" width="4.981" height="6.42" depth="0" valign="baseline" size="10">4</text>
+<path fill="0" fillrule="wind">
+66.2432 27.8281 m
+72.5032 27.8281 l
+72.5032 26.9981 l
+66.2432 26.9981 l
+66.2432 27.8281 l
+h
+</path>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+112.294 38.8719 m
+112.294 271.232 l
+</path>
+<path fill="0" fillrule="wind">
+112.294 38.8719 m
+112.294 35.3719 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+112.294 38.8719 m
+112.294 35.3719 l
+</path>
+<text matrix="1 0 0 1 113.305 24.2781" pos="0 0" stroke="0" type="label" width="4.981" height="6.42" depth="0" valign="baseline" size="10">3</text>
+<path fill="0" fillrule="wind">
+105.986 27.8281 m
+112.246 27.8281 l
+112.246 26.9981 l
+105.986 26.9981 l
+105.986 27.8281 l
+h
+</path>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+152.037 38.8719 m
+152.037 271.232 l
+</path>
+<path fill="0" fillrule="wind">
+152.037 38.8719 m
+152.037 35.3719 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+152.037 38.8719 m
+152.037 35.3719 l
+</path>
+<text matrix="1 0 0 1 153.049 24.2781" pos="0 0" stroke="0" type="label" width="4.981" height="6.42" depth="0" valign="baseline" size="10">2</text>
+<path fill="0" fillrule="wind">
+145.73 27.8281 m
+151.99 27.8281 l
+151.99 26.9981 l
+145.73 26.9981 l
+145.73 27.8281 l
+h
+</path>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+191.78 38.8719 m
+191.78 271.232 l
+</path>
+<path fill="0" fillrule="wind">
+191.78 38.8719 m
+191.78 35.3719 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+191.78 38.8719 m
+191.78 35.3719 l
+</path>
+<text matrix="1 0 0 1 192.792 24.2781" pos="0 0" stroke="0" type="label" width="4.981" height="6.42" depth="0" valign="baseline" size="10">1</text>
+<path fill="0" fillrule="wind">
+185.473 27.8281 m
+191.733 27.8281 l
+191.733 26.9981 l
+185.473 26.9981 l
+185.473 27.8281 l
+h
+</path>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+231.523 38.8719 m
+231.523 271.232 l
+</path>
+<path fill="0" fillrule="wind">
+231.523 38.8719 m
+231.523 35.3719 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+231.523 38.8719 m
+231.523 35.3719 l
+</path>
+<text matrix="1 0 0 1 228.344 24.2781" pos="0 0" stroke="0" type="label" width="4.981" height="6.42" depth="0" valign="baseline" size="10">0</text>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+271.267 38.8719 m
+271.267 271.232 l
+</path>
+<path fill="0" fillrule="wind">
+271.267 38.8719 m
+271.267 35.3719 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+271.267 38.8719 m
+271.267 35.3719 l
+</path>
+<text matrix="1 0 0 1 268.087 24.2781" pos="0 0" stroke="0" type="label" width="4.981" height="6.42" depth="0" valign="baseline" size="10">1</text>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+311.01 38.8719 m
+311.01 271.232 l
+</path>
+<path fill="0" fillrule="wind">
+311.01 38.8719 m
+311.01 35.3719 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+311.01 38.8719 m
+311.01 35.3719 l
+</path>
+<text matrix="1 0 0 1 307.83 24.2781" pos="0 0" stroke="0" type="label" width="4.981" height="6.42" depth="0" valign="baseline" size="10">2</text>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+350.753 38.8719 m
+350.753 271.232 l
+</path>
+<path fill="0" fillrule="wind">
+350.753 38.8719 m
+350.753 35.3719 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+350.753 38.8719 m
+350.753 35.3719 l
+</path>
+<text matrix="1 0 0 1 347.573 24.2781" pos="0 0" stroke="0" type="label" width="4.981" height="6.42" depth="0" valign="baseline" size="10">3</text>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+390.496 38.8719 m
+390.496 271.232 l
+</path>
+<path fill="0" fillrule="wind">
+390.496 38.8719 m
+390.496 35.3719 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+390.496 38.8719 m
+390.496 35.3719 l
+</path>
+<text matrix="1 0 0 1 387.317 24.2781" pos="0 0" stroke="0" type="label" width="4.981" height="6.42" depth="0" valign="baseline" size="10">4</text>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+56.6531 49.4337 m
+406.394 49.4337 l
+</path>
+<path fill="0" fillrule="wind">
+56.6531 49.4337 m
+53.1531 49.4337 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+56.6531 49.4337 m
+53.1531 49.4337 l
+</path>
+<text matrix="1 0 0 1 30.5789 45.6368" pos="0 0" stroke="0" type="label" width="14.944" height="6.42" depth="0" valign="baseline" size="10">180</text>
+<path fill="0" fillrule="wind">
+23.26 49.1868 m
+29.52 49.1868 l
+29.52 48.3568 l
+23.26 48.3568 l
+23.26 49.1868 l
+h
+</path>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+56.6531 102.243 m
+406.394 102.243 l
+</path>
+<path fill="0" fillrule="wind">
+56.6531 102.243 m
+53.1531 102.243 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+56.6531 102.243 m
+53.1531 102.243 l
+</path>
+<text matrix="1 0 0 1 36.9383 98.4459" pos="0 0" stroke="0" type="label" width="9.963" height="6.42" depth="0" valign="baseline" size="10">90</text>
+<path fill="0" fillrule="wind">
+29.6194 101.996 m
+35.8794 101.996 l
+35.8794 101.166 l
+29.6194 101.166 l
+29.6194 101.996 l
+h
+</path>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+56.6531 155.052 m
+406.394 155.052 l
+</path>
+<path fill="0" fillrule="wind">
+56.6531 155.052 m
+53.1531 155.052 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+56.6531 155.052 m
+53.1531 155.052 l
+</path>
+<text matrix="1 0 0 1 43.2938 151.255" pos="0 0" stroke="0" type="label" width="4.981" height="6.42" depth="0" valign="baseline" size="10">0</text>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+56.6531 207.861 m
+406.394 207.861 l
+</path>
+<path fill="0" fillrule="wind">
+56.6531 207.861 m
+53.1531 207.861 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+56.6531 207.861 m
+53.1531 207.861 l
+</path>
+<text matrix="1 0 0 1 36.9344 204.064" pos="0 0" stroke="0" type="label" width="9.963" height="6.42" depth="0" valign="baseline" size="10">90</text>
+<path stroke="0.69" pen="0.8" cap="2" join="1">
+56.6531 260.67 m
+406.394 260.67 l
+</path>
+<path fill="0" fillrule="wind">
+56.6531 260.67 m
+53.1531 260.67 l
+</path>
+<path stroke="0" pen="0.8" join="1">
+56.6531 260.67 m
+53.1531 260.67 l
+</path>
+<text matrix="1 0 0 1 30.575 256.873" pos="0 0" stroke="0" type="label" width="14.944" height="6.42" depth="0" valign="baseline" size="10">180</text>
+<text matrix="0 1 -1 0 14.7937 92.5519" pos="0 0" stroke="0" type="label" width="6.78" height="6.808" depth="0" valign="baseline" size="10">P</text>
+<text matrix="0 1 -1 0 14.7937 98.5821" pos="0 0" stroke="0" type="label" width="5.535" height="6.918" depth="0" valign="baseline" size="10">h</text>
+<text matrix="0 1 -1 0 14.7937 104.92" pos="0 0" stroke="0" type="label" width="4.981" height="4.289" depth="0" valign="baseline" size="10">a</text>
+<text matrix="0 1 -1 0 14.7937 111.048" pos="0 0" stroke="0" type="label" width="3.93" height="4.289" depth="0" valign="baseline" size="10">s</text>
+<text matrix="0 1 -1 0 14.7937 116.258" pos="0 0" stroke="0" type="label" width="4.428" height="4.289" depth="0" valign="baseline" size="10">e</text>
+<text matrix="0 1 -1 0 14.7937 122.41" pos="0 0" stroke="0" type="label" width="0" height="0" depth="0" valign="baseline" size="10"> </text>
+<text matrix="0 1 -1 0 14.7937 125.589" pos="0 0" stroke="0" type="label" width="7.61" height="6.808" depth="0" valign="baseline" size="10">D</text>
+<text matrix="0 1 -1 0 14.7937 133.289" pos="0 0" stroke="0" type="label" width="2.767" height="6.654" depth="0" valign="baseline" size="10">i</text>
+<text matrix="0 1 -1 0 14.7937 136.068" pos="0 0" stroke="0" type="label" width="3.044" height="6.918" depth="0" valign="baseline" size="10">f</text>
+<text matrix="0 1 -1 0 14.7937 139.588" pos="0 0" stroke="0" type="label" width="3.044" height="6.918" depth="0" valign="baseline" size="10">f</text>
+<text matrix="0 1 -1 0 14.7937 143.109" pos="0 0" stroke="0" type="label" width="4.428" height="4.289" depth="0" valign="baseline" size="10">e</text>
+<text matrix="0 1 -1 0 14.7937 149.261" pos="0 0" stroke="0" type="label" width="3.902" height="4.289" depth="0" valign="baseline" size="10">r</text>
+<text matrix="0 1 -1 0 14.7937 153.372" pos="0 0" stroke="0" type="label" width="4.428" height="4.289" depth="0" valign="baseline" size="10">e</text>
+<text matrix="0 1 -1 0 14.7937 159.525" pos="0 0" stroke="0" type="label" width="5.535" height="4.289" depth="0" valign="baseline" size="10">n</text>
+<text matrix="0 1 -1 0 14.7937 165.862" pos="0 0" stroke="0" type="label" width="4.428" height="4.289" depth="0" valign="baseline" size="10">c</text>
+<text matrix="0 1 -1 0 14.7937 171.36" pos="0 0" stroke="0" type="label" width="4.428" height="4.289" depth="0" valign="baseline" size="10">e</text>
+<text matrix="0 1 -1 0 14.7937 177.513" pos="0 0" stroke="0" type="label" width="0" height="0" depth="0" valign="baseline" size="10"> </text>
+<text matrix="0 1 -1 0 14.7937 187.288" pos="0 0" stroke="0" type="label" width="0" height="0" depth="0" valign="baseline" size="10"> </text>
+<text matrix="0 1 -1 0 14.7937 190.467" pos="0 0" stroke="0" type="label" width="3.874" height="7.473" depth="2.49" valign="baseline" size="10">(</text>
+<text matrix="0 1 -1 0 14.7937 194.368" pos="0 0" stroke="0" type="label" width="5.535" height="6.918" depth="0" valign="baseline" size="10">d</text>
+<text matrix="0 1 -1 0 14.7937 200.716" pos="0 0" stroke="0" type="label" width="4.428" height="4.289" depth="0" valign="baseline" size="10">e</text>
+<text matrix="0 1 -1 0 14.7937 206.868" pos="0 0" stroke="0" type="label" width="4.981" height="4.297" depth="1.93" valign="baseline" size="10">g</text>
+<text matrix="0 1 -1 0 14.7937 213.216" pos="0 0" stroke="0" type="label" width="3.874" height="7.473" depth="2.49" valign="baseline" size="10">)</text>
+<path fill="0" fillrule="wind">
+7.19375 185.362 m
+9.21375 184.972 l
+9.21375 185.612
+9.46375 186.112
+9.96375 186.452 c
+10.4737 186.792
+11.1737 186.872
+12.0637 186.712 c
+12.9637 186.532
+13.6637 186.172
+14.1637 185.632 c
+14.6637 185.102
+14.9037 184.512
+14.9037 183.862 c
+16.8638 183.482 l
+16.8638 182.582 l
+14.9037 182.972 l
+14.9037 182.312
+14.6637 181.822
+14.1637 181.492 c
+13.6637 181.142
+12.9637 181.052
+12.0637 181.232 c
+11.1737 181.402
+10.4737 181.762
+9.96375 182.312 c
+9.46375 182.832
+9.21375 183.422
+9.21375 184.072 c
+7.19375 184.472 l
+7.19375 185.362 l
+h
+14.1138 184.022 m
+14.1138 184.382
+13.9537 184.722
+13.6138 185.042 c
+13.2437 185.382
+12.7237 185.622
+12.0637 185.762 c
+11.4137 185.882
+10.8937 185.842
+10.5137 185.642 c
+10.1837 185.452
+10.0137 185.172
+10.0137 184.812 c
+14.1138 184.022 l
+h
+14.1138 183.122 m
+10.0137 183.922 l
+10.0137 183.552
+10.1837 183.212
+10.5137 182.902 c
+10.8937 182.542
+11.4137 182.302
+12.0637 182.182 c
+12.7237 182.052
+13.2437 182.092
+13.6138 182.302 c
+13.9537 182.482
+14.1138 182.752
+14.1138 183.122 c
+h
+</path>
+<path stroke="0.121 0.466 0.705" pen="2" cap="2" join="1">
+72.5504 49.4337 m
+390.496 260.67 l
+390.496 260.67 l
+</path>
+<path stroke="0.121 0.466 0.705" dash="[5.55 2.4] 0" pen="1.5" join="1">
+56.6531 260.67 m
+406.394 260.67 l
+</path>
+<path stroke="0.121 0.466 0.705" dash="[5.55 2.4] 0" pen="1.5" join="1">
+56.6531 49.4337 m
+406.394 49.4337 l
+</path>
+<path stroke="0.121 0.466 0.705" dash="[1.5 2.475] 0" pen="1.5" join="1">
+390.496 38.8719 m
+390.496 271.232 l
+</path>
+<path stroke="0.121 0.466 0.705" dash="[1.5 2.475] 0" pen="1.5" join="1">
+72.5504 38.8719 m
+72.5504 271.232 l
+</path>
+<path stroke="0" pen="0.8" cap="2">
+56.6531 38.8719 m
+56.6531 271.232 l
+</path>
+<path stroke="0" pen="0.8" cap="2">
+406.394 38.8719 m
+406.394 271.232 l
+</path>
+<path stroke="0" pen="0.8" cap="2">
+56.6531 38.8719 m
+406.394 38.8719 l
+</path>
+<path stroke="0" pen="0.8" cap="2">
+56.6531 271.232 m
+406.394 271.232 l
+</path>
+<text matrix="1 0 0 1 390.496 155.63" pos="0 0" stroke="0" type="label" width="7.749" height="5.812" depth="0.83" valign="baseline" size="10">+</text>
+<text matrix="1 0 0 1 398.875 155.63" pos="0 0" stroke="0" type="label" width="5.535" height="4.297" depth="1.93" valign="baseline" size="10">p</text>
+<text matrix="1 0 0 1 405.223 155.63" pos="0 0" stroke="0" type="label" width="4.981" height="7.473" depth="2.49" valign="baseline" size="10">/</text>
+<text matrix="1 0 0 1 408.217 155.63" pos="0 0" stroke="0" type="label" width="4.981" height="6.42" depth="0" valign="baseline" size="10">2</text>
+<text matrix="1 0 0 1 55.9293 155.63" pos="0 0" stroke="0" type="label" width="5.535" height="4.297" depth="1.93" valign="baseline" size="10">p</text>
+<text matrix="1 0 0 1 62.277 155.63" pos="0 0" stroke="0" type="label" width="4.981" height="7.473" depth="2.49" valign="baseline" size="10">/</text>
+<text matrix="1 0 0 1 65.2711 155.63" pos="0 0" stroke="0" type="label" width="4.981" height="6.42" depth="0" valign="baseline" size="10">2</text>
+<path fill="0" fillrule="wind">
+48.6104 159.18 m
+54.8704 159.18 l
+54.8704 158.35 l
+48.6104 158.35 l
+48.6104 159.18 l
+h
+</path>
+<text transformations="translations" pos="192 16" stroke="black" type="label" width="58.309" height="6.926" depth="1.93" valign="baseline">Displacement</text>
+</page>
+</ipe>

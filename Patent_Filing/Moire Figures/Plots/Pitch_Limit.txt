@@ -1,0 +1,104 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# ============================================================
+# PARAMETER
+# ============================================================
+
+p = 8  # grating pitch
+
+# ============================================================
+# FIGURE
+# ============================================================
+
+fig, ax = plt.subplots(figsize=(6,6))
+
+# Circle
+theta = np.linspace(0, 2*np.pi, 1000)
+
+ax.plot(
+    np.cos(theta),
+    np.sin(theta),
+    linewidth=2
+)
+
+# Axes
+ax.plot([-1.2,1.2],[0,0],'k-',lw=0.8)
+ax.plot([0,0],[-1.2,1.2],'k-',lw=0.8)
+
+# ============================================================
+# PHASE LOCATIONS
+# ============================================================
+
+points = [
+    (0,     "0°\n0"),
+    (90,    "90°\n+p/4"),
+    (180,   "180°\n+p/2"),
+    (-90,   "-90°\n-p/4")
+]
+
+for ang_deg, txt in points:
+
+    ang = np.deg2rad(ang_deg)
+
+    x = np.cos(ang)
+    y = np.sin(ang)
+
+    ax.plot(x, y, 'ko', markersize=5)
+
+    ax.text(
+        1.18*x,
+        1.18*y,
+        txt,
+        ha='center',
+        va='center',
+        fontsize=12
+    )
+
+# ============================================================
+# WRAP POINT
+# ============================================================
+
+ax.text(
+    -1.45,
+    0,
+    "180° ≡ -180°\n(+p/2 ≡ -p/2)",
+    ha='center',
+    va='center',
+    fontsize=11
+)
+
+# ============================================================
+# DIRECTION ARROW
+# ============================================================
+
+arrow_angle1 = np.deg2rad(20)
+arrow_angle2 = np.deg2rad(50)
+
+ax.annotate(
+    "",
+    xy=(np.cos(arrow_angle2), np.sin(arrow_angle2)),
+    xytext=(np.cos(arrow_angle1), np.sin(arrow_angle1)),
+    arrowprops=dict(
+        arrowstyle="->",
+        lw=1.5
+    )
+)
+
+ax.text(
+    0,
+    -1.45,
+    rf"One complete cycle = pitch $p={p}$",
+    ha='center',
+    fontsize=12
+)
+
+# ============================================================
+# FORMAT
+# ============================================================
+
+ax.set_aspect('equal')
+ax.axis('off')
+
+plt.tight_layout()
+plt.show()

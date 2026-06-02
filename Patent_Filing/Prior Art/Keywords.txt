@@ -1,0 +1,18 @@
+Targeting the Dynamic Grating + Moiré (Highest Priority)
+    ("moire fringe" OR "moire pattern") AND ("electronic grating" OR "programmable grating" OR "dynamic grating" OR "LCD" OR "display") AND ("variable pitch" OR "coarse" OR "fine")
+
+Targeting the Dual-Range Resolution Capability
+    ("displacement sensor" OR "displacement measurement") AND ("moire") AND ("long range" OR "high resolution") AND ("adjustable pitch" OR "switching pitch")
+
+Targeting the Hardware Integration
+    ("moire") AND ("linear image sensor" OR "line scan" OR "photodiode array") AND ("display" OR "programmable mask") AND "displacement"
+
+
+
+
+
+International Patent Classification Codes
+- G01B 11/14: Optical techniques for measuring distance, displacement, or position.
+- G01B 11/25: Measuring arrangements characterized by projecting a pattern (e.g., Moiré fringes) onto an object.
+- G01D 5/38: Mechanical outputs transferred using optical elements—specifically gratings.
+- G02F 1/133: Liquid crystal displays or active-matrix masks used for optical control

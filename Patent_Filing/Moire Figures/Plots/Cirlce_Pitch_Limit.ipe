@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70218" creator="Ipe 7.2.29">
+<info created="D:20260531103525" modified="D:20260531103525"/>
+<ipestyle>
+<symbol name="bullet">
+<path matrix="0.04 0 0 0.04 0 0" fill="black">
+18 0 0 18 0 0 e
+</path>
+</symbol>
+<layout paper="1105.92 543.168" origin="0 0" frame="1105.92 543.168"/>
+</ipestyle>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+</page>
+</ipe>
