@@ -8,9 +8,6 @@ Targeting the Hardware Integration
     ("moire") AND ("linear image sensor" OR "line scan" OR "photodiode array") AND ("display" OR "programmable mask") AND "displacement"
 
 
-
-
-
 International Patent Classification Codes
 - G01B 11/14: Optical techniques for measuring distance, displacement, or position.
 - G01B 11/25: Measuring arrangements characterized by projecting a pattern (e.g., Moiré fringes) onto an object.

@@ -56,8 +56,6 @@ FIG 4A - Sampling Moire method
 FIG 4B Limitation of Sampling Moire with range as P and maximum displacement as +-p/2
 FIG 5 Sampling Moiré MEthod Plots
 FIG 6 Flow chart of Dynamic Sampling Moire Method proposed	
-FIG 7 Dynamic Sampling Moiré MEthod Figures
+FIG 7 Dynamic Sampling Moiré Method Figures
 FIG 8 Experimental Validation	
-
-
 

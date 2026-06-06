@@ -2,152 +2,233 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # ==========================================================
-# SENSOR
+# SENSOR PARAMETERS
 # ==========================================================
 
 N = 2048
 sensor_length_mm = 30.0
 
-pixel_pitch = sensor_length_mm / N
+pixel_pitch_mm = sensor_length_mm / N
 
 x = np.arange(N)
-# x_mm = x * pixel_pitch
-x_mm = x
+x_mm = x * pixel_pitch_mm
 
 # ==========================================================
-# GRATING
+# GRATING PARAMETERS
 # ==========================================================
 
 grating_pitch_mm = 1.0
 
-p_pix = grating_pitch_mm / pixel_pitch
+p_pix = grating_pitch_mm / pixel_pitch_mm
 
 signal = 0.5 + 0.5*np.cos(
     2*np.pi*x/p_pix
 )
 
 # ==========================================================
-# SAMPLING MOIRE
+# SAMPLING MOIRE PARAMETERS
 # ==========================================================
 
-T = 66                 # thinning interval
-num_k = 4              # k=0,1,2,3
+T = 65
 
-# ==========================================================
-# FIGURE
-# ==========================================================
+idx = np.arange(0, N, T)
 
-fig, axs = plt.subplots(
-    6,
-    1,
-    figsize=(14,12),
-    sharex=True
-)
+samples = signal[idx]
 
-# ==========================================================
-# (1) ORIGINAL SIGNAL
-# ==========================================================
-
-axs[0].plot(
-    x_mm,
-    signal,
-    lw=1.5
-)
-
-axs[0].set_title(
-    "Original Signal (1 mm Grating)"
-)
-
-# ==========================================================
-# (2) k = 0 SAMPLES
-# ==========================================================
-
-k = 0
-
-idx = np.arange(k, N, T)
-
-axs[1].plot(
-    x_mm,
-    signal,
-    color='0.8'
-)
-
-axs[1].plot(
-    idx,
-    signal[idx],
-    'o'
-)
-
-axs[1].set_title(
-    "k = 0 Thinned Samples"
-)
-
-# ==========================================================
-# (3) k = 0 INTERPOLATION
-# ==========================================================
-
-interp = np.interp(
+moire_interp = np.interp(
     x,
     idx,
-    signal[idx]
+    samples
 )
 
-axs[2].plot(
-    x_mm,
-    interp,
+# ==========================================================
+# THEORETICAL VALUES
+# ==========================================================
+
+Pm_pix = p_pix*T/abs(T-p_pix)
+
+Pm_mm = Pm_pix * pixel_pitch_mm
+
+M = Pm_pix/p_pix
+
+R_orig_um = (grating_pitch_mm/p_pix)*1000
+
+R_moire_um = R_orig_um/M
+
+print(f"Original pitch      = {grating_pitch_mm:.3f} mm")
+print(f"Pitch on sensor     = {p_pix:.2f} pixels")
+print(f"Moire pitch         = {Pm_pix:.1f} pixels")
+print(f"Moire pitch         = {Pm_mm:.2f} mm")
+print(f"Magnification       = {M:.2f}")
+print(f"Original resolution = {R_orig_um:.2f} um")
+print(f"Moire resolution    = {R_moire_um:.2f} um")
+
+# ==========================================================
+# FIGURE 1
+# ==========================================================
+
+plt.figure(figsize=(12,4))
+
+plt.plot(
+    x,
+    signal,
     lw=1.5
 )
 
-axs[2].plot(
-    idx,
-    signal[idx],
-    'o'
+plt.xlim(0,2100)
+
+plt.grid(True)
+
+plt.title(
+    f"Original Grating Signal (Pitch = {grating_pitch_mm} mm)"
 )
 
-axs[2].set_title(
-    "Interpolated Signal (k = 0)"
-)
-
-# ==========================================================
-# (4-6) k = 1,2,3
-# ==========================================================
-
-for row, k in enumerate([1,2,3], start=3):
-
-    idx = np.arange(k, N, T)
-
-    interp = np.interp(
-        x,
-        idx,
-        signal[idx]
-    )
-
-    axs[row].plot(
-        x_mm,
-        interp,
-        lw=1.5
-    )
-
-    axs[row].plot(
-        idx,
-        signal[idx],
-        'o',
-        markersize=3
-    )
-
-    axs[row].set_title(
-        f"k = {k} Samples + Interpolation"
-    )
-
-# ==========================================================
-
-for ax in axs:
-    ax.grid(True)
-
-axs[-1].set_xlabel(
-    "Position on Sensor (mm)"
-)
+plt.xlabel("Pixel Number")
+plt.ylabel("Intensity")
 
 plt.tight_layout()
-plt.show()
 
+# ==========================================================
+# FIGURE 2
+# ==========================================================
+
+plt.figure(figsize=(12,4))
+
+plt.plot(
+    x,
+    signal,
+    color='0.8',
+    lw=1
+)
+
+plt.plot(
+    idx,
+    samples,
+    'o',
+    markersize=5
+)
+
+plt.xlim(0,2100)
+
+plt.grid(True)
+
+plt.title(
+    f"Thinning-Out Process (T = {T})"
+)
+
+plt.xlabel("Pixel Number")
+plt.ylabel("Intensity")
+
+plt.tight_layout()
+
+# ==========================================================
+# FIGURE 3
+# ==========================================================
+
+plt.figure(figsize=(12,4))
+
+plt.plot(
+    x,
+    moire_interp,
+    lw=2
+)
+
+plt.plot(
+    idx,
+    samples,
+    'o',
+    markersize=4
+)
+
+plt.xlim(0,2100)
+
+plt.grid(True)
+
+plt.title(
+    "Interpolated Sampling Moire Signal"
+)
+
+plt.xlabel("Pixel Number")
+plt.ylabel("Intensity")
+
+plt.tight_layout()
+
+# ==========================================================
+# FIGURE 4
+# ==========================================================
+
+plt.figure(figsize=(12,5))
+
+plt.plot(
+    x,
+    signal,
+    label="Original Grating",
+    lw=1.5
+)
+
+plt.plot(
+    x,
+    moire_interp,
+    label="Sampling Moire",
+    lw=2
+)
+
+plt.xlim(0,2100)
+
+plt.grid(True)
+
+plt.legend()
+
+plt.title(
+    "Original Signal vs Sampling Moire Signal"
+)
+
+plt.xlabel("Pixel Number")
+plt.ylabel("Intensity")
+
+plt.tight_layout()
+
+# ==========================================================
+# FIGURE 5
+# ==========================================================
+
+plt.figure(figsize=(8,5))
+
+labels = [
+    "Original",
+    "Sampling Moire"
+]
+
+values = [
+    R_orig_um,
+    R_moire_um
+]
+
+bars = plt.bar(
+    labels,
+    values
+)
+
+plt.ylabel(
+    "Theoretical Resolution (um)"
+)
+
+plt.title(
+    f"Resolution Improvement (M = {M:.1f}x)"
+)
+
+for bar, val in zip(bars, values):
+
+    plt.text(
+        bar.get_x() + bar.get_width()/2,
+        val,
+        f"{val:.2f}",
+        ha='center',
+        va='bottom'
+    )
+
+plt.tight_layout()
+
+# ==========================================================
+
+plt.show()
